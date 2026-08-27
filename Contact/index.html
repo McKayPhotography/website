@@ -266,7 +266,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 text-center md:text-left">
                 <div class="space-y-1">
                     <p class="text-[10px] uppercase tracking-[0.25em] font-bold text-soft-charcoal/40">Studio Email</p>
-                    <a href="mailto:mckayphotoco@gmail.com" class="text-sm font-medium text-deep-forest hover:text-muted-gold border-b border-transparent hover:border-muted-gold/30 pb-0.5 block transition-all duration-300 overflow-hidden text-ellipsis whitespace-nowrap">mckayphotoco@gmail.com</a>
+                    <a href="mailto:dave@mckayphoto.co" class="text-sm font-medium text-deep-forest hover:text-muted-gold border-b border-transparent hover:border-muted-gold/30 pb-0.5 block transition-all duration-300 overflow-hidden text-ellipsis whitespace-nowrap">dave@mckayphoto.co</a>
                 </div>
 
                 <div class="space-y-1">
@@ -397,14 +397,14 @@
                             bookingStatus.classList.add('text-deep-forest');
                             bookingForm.reset();
                         } else {
-                            bookingStatus.textContent = 'Something went wrong sending your request. Please try again or email mckayphotoco@gmail.com directly.';
+                            bookingStatus.textContent = 'Something went wrong sending your request. Please try again or email dave@mckayphoto.co directly.';
                             bookingStatus.classList.remove('text-deep-forest');
                             bookingStatus.classList.add('text-red-700');
                         }
                     })
                     .catch(() => {
                         bookingStatus.classList.remove('hidden');
-                        bookingStatus.textContent = 'Something went wrong sending your request. Please try again or email mckayphotoco@gmail.com directly.';
+                        bookingStatus.textContent = 'Something went wrong sending your request. Please try again or email dave@mckayphoto.co directly.';
                         bookingStatus.classList.remove('text-deep-forest');
                         bookingStatus.classList.add('text-red-700');
                     })
